@@ -1,0 +1,8 @@
+[package]
+name = "processmemorytest1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+process-memory = "0.5.0"
+sysinfo = "0.30.12"
