@@ -1,6 +1,6 @@
-/home/troy/code/proj/rust/processmemorytest1/target/debug/deps/libprocessmemorytest1-69b6f7069cbf16cf.rmeta: src/main.rs Cargo.toml
+/home/troy/code/proj/rust/rust_memory_test/target/debug/deps/libprocessmemorytest1-69b6f7069cbf16cf.rmeta: src/main.rs Cargo.toml
 
-/home/troy/code/proj/rust/processmemorytest1/target/debug/deps/processmemorytest1-69b6f7069cbf16cf.d: src/main.rs Cargo.toml
+/home/troy/code/proj/rust/rust_memory_test/target/debug/deps/processmemorytest1-69b6f7069cbf16cf.d: src/main.rs Cargo.toml
 
 src/main.rs:
 Cargo.toml:
