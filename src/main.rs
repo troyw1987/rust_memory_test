@@ -2,9 +2,7 @@ use std::collections::HashMap;
 
 use sysinfo::System;
 
-fn main() {
-    let procname = "kitty";
-
+fn getpidfromstring(procname: &str) -> u32 {
     let sys = System::new_all();
     let mut processes: HashMap<&str, u32> = HashMap::new();
 
@@ -13,6 +11,13 @@ fn main() {
     }
 
     let found_pid = processes.get(&procname).copied().unwrap_or(0);
+
+    found_pid
+}
+
+fn main() {
+    let procname = "Shigatari";
+    let found_pid = getpidfromstring(procname);
 
     println!("pid -> {}", found_pid);
 }
